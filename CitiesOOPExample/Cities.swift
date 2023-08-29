@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+
 //Cities sınıfında image=UIImage() yazınca hata verir.
 //Bunun için UIKit'i import etmek gerekiyor
 

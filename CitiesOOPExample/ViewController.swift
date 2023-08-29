@@ -42,6 +42,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell
     }
     
+    
+    
     //Aşağıdaki fonk videoda "editing style" yazınca çıktı. Ben de farklı çıktı. Elle yazdım.
     //TableView'dan veri silmek için
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {

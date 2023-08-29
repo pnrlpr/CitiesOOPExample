@@ -18,8 +18,7 @@ class DetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
+      
         cityNameLabel.text = chosenCity?.name
         countryNameLabel.text = chosenCity?.country
         imageView.image = chosenCity?.image
